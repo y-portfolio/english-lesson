@@ -17,21 +17,27 @@ header {
   height: 350px;
 }
 
-#top-text {
-  width: 300px;
-  height: 300px;
-  background: rgba(255, 255, 255, .8);
-  border-radius: 50%;
-  margin: 30px 0 0 30px;
-  padding: 40px 30px 70px 40px;
+#top {
+  height: 50px;
+  justify-content: space-between;
 }
 
-#top-text h1 {
-  font-size: 32px;
+#top-text {
+  /* width: 50%;
+  height: 50%; */
+  /* background: rgba(255, 255, 255, .8); */
+  /* border-radius: 50%; */
+  margin: 30px 0 0 30px;
+  width: 70%;
 }
+
+/* #top-text h1 {
+  font-size: 32px;
+} */
 
 #sns-icon {
   margin: 20px 15px 0 auto;
+  width: 30%;
 }
 
 #sns-icon ul {
@@ -51,8 +57,17 @@ table th {
   font-weight: normal;
 }
 
-#item, .e-text {
-  margin: 48px;
+#item {
+  margin: 15px;
+  padding: 15px;
+}
+
+.e-text {
+  margin: 15px;
+}
+
+.e-text-wap {
+  padding: 15px;
 }
 
 .btn {
@@ -120,12 +135,26 @@ table th {
     width: 850px;
     margin: 0 auto;
   }
-  
+
+  /* #top-text {
+    width: 300px;
+    height: 300px;
+    background: rgba(255, 255, 255, .8);
+    border-radius: 50%;
+    margin: 30px 0 0 30px;
+    padding: 40px 30px 70px 40px;
+  }
+   */
+
   #item {
     display: flex;
     width: 800px;
     margin: 48px auto 0;
   }
+
+  /* #item, .e-text {
+    margin: 48px;
+  } */
 
   .pic, .text {
     width: 50%;
@@ -141,6 +170,10 @@ table th {
   .e-text {
     width: 800px;
     margin: 48px auto;
+  }
+
+  .e-text-wap {
+    padding: px;
   }
 
   .user-wrap {
