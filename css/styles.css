@@ -14,26 +14,21 @@ h1, h2 {
 header {
   background-image: url(../img/top.jpg);
   background-size: cover;
-  height: 350px;
+  height: 300px;
 }
 
 #top {
   height: 50px;
-  justify-content: space-between;
+  padding: 30px 0 0 20px;
 }
 
 #top-text {
-  /* width: 50%;
-  height: 50%; */
-  /* background: rgba(255, 255, 255, .8); */
-  /* border-radius: 50%; */
-  margin: 30px 0 0 30px;
+  background: rgba(255, 255, 255, .6);
+  border-radius: 50% 20% / 10% 40%;
+  padding: 5px;
   width: 70%;
+  min-height: 200px;
 }
-
-/* #top-text h1 {
-  font-size: 32px;
-} */
 
 #sns-icon {
   margin: 20px 15px 0 auto;
@@ -45,7 +40,7 @@ header {
 }
 
 #sns-icon li {
-  margin-right: 15px;
+  margin-right: 10px;
 }
 
 .table-title {
@@ -113,7 +108,7 @@ table th {
 
 .user ul {
   list-style-type: none;
-  padding: 0;
+  padding: 20px;
 }
 
 .user img {
@@ -122,6 +117,7 @@ table th {
 
 .comment p {
   margin: 0;
+  padding: 0 20px 30px 20px;
 }
 
 .copylight {
@@ -131,30 +127,20 @@ table th {
 }
 
 @media (min-width: 900px) {
+  header {
+    height: 350px;
+  }
+
   #top {
     width: 850px;
     margin: 0 auto;
   }
-
-  /* #top-text {
-    width: 300px;
-    height: 300px;
-    background: rgba(255, 255, 255, .8);
-    border-radius: 50%;
-    margin: 30px 0 0 30px;
-    padding: 40px 30px 70px 40px;
-  }
-   */
 
   #item {
     display: flex;
     width: 800px;
     margin: 48px auto 0;
   }
-
-  /* #item, .e-text {
-    margin: 48px;
-  } */
 
   .pic, .text {
     width: 50%;
