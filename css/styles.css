@@ -14,24 +14,19 @@ h1, h2 {
 header {
   background-image: url(../img/top.jpg);
   background-size: cover;
-  height: 300px;
+  height: 100%;
 }
 
 #top {
-  height: 50px;
-  padding: 30px 0 0 20px;
+  padding: 15px;
 }
 
-#top-text {
-  background: rgba(255, 255, 255, .6);
-  border-radius: 50% 20% / 10% 40%;
-  padding: 5px;
-  width: 70%;
-  min-height: 200px;
+#top h1 {
+  color: #fff;
 }
 
 #sns-icon {
-  margin: 20px 15px 0 auto;
+  margin: 0px 15px 0 auto;
   width: 30%;
 }
 
@@ -41,6 +36,11 @@ header {
 
 #sns-icon li {
   margin-right: 10px;
+}
+
+#top-text {
+  padding: 5px;
+  width: 70%;
 }
 
 .table-title {
@@ -127,10 +127,6 @@ table th {
 }
 
 @media (min-width: 900px) {
-  header {
-    height: 350px;
-  }
-
   #top {
     width: 850px;
     margin: 0 auto;
